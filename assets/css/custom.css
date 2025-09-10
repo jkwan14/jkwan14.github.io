@@ -147,37 +147,44 @@
   }
 }
 
-/* === Skills Table Styling === */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  display: block;
-  overflow-x: auto; /* enables horizontal scroll on small screens */
-  white-space: nowrap; /* prevents text wrapping */
-  font-size: 0.95rem; /* matches body text size */
-  line-height: 1.5; /* consistent with paragraphs */
-  color: #333; /* softer than pure black */
+/* === Intro Section Styling === */
+.intro-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
-th,
-td {
-  text-align: left;
-  padding: 0.6rem 1rem;
-  vertical-align: top;
+.profile-pic-left {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
 }
 
-th {
-  border-bottom: 2px solid #ddd;
-  font-weight: 600; /* stronger header but not too heavy */
+.intro-text {
+  flex: 1;
+  max-width: 700px; /* keeps lines readable */
 }
 
-td {
-  border-bottom: 1px solid #eee;
-}
+@media (max-width: 768px) {
+  .intro-section {
+    flex-direction: column;
+    text-align: center;
+  }
 
-tr:last-child td {
-  border-bottom: none; /* cleaner bottom edge */
+  .intro-text {
+    text-align: center;
+    max-width: 100%; /* let text fill on small screens */
+  }
+
+  .profile-pic-left {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem;
+  }
 }
 
 /* === Footer Social Links === */
@@ -290,4 +297,13 @@ tr:last-child td {
     font-size: 0.8rem;
     padding: 1rem 0;
   }
+}
+
+/* === Override Cayman theme content width === */
+.main-content {
+  max-width: 1000px; /* increase from ~740px */
+  margin: 0 auto; /* keep it centered */
+  padding: 2rem 1.5rem; /* restore top/bottom padding + side spacing */
+  font-size: 1rem;
+  line-height: 1.6;
 }

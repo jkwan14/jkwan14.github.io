@@ -20,9 +20,9 @@ title: "📄 Resume"
 
 ---
 
-## 🛠 Skills
+## Skills
 
-**Languages:** JavaScript, Python, SQL, HTML, CSS
-**Frameworks & Libraries:** React, FastAPI, SQLAlchemy, Tailwind CSS
-**Databases:** PostgreSQL
-**Tools & Platforms:** Git, GitHub, Docker, Jekyll, Render, VSCode
+- **Languages:** JavaScript, Python, SQL, HTML, CSS
+- **Frameworks & Libraries:** React, FastAPI, SQLAlchemy, Tailwind CSS
+- **Databases:** PostgreSQL
+- **Tools & Platforms:** Git, GitHub, Docker, Jekyll, Render, VSCode

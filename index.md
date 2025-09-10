@@ -5,14 +5,18 @@ title: Jonathan Kwan
 
 # 👋 Hi, I'm Jonathan
 
-![Jonathan Kwan](/assets/img/me.jpg){: .profile-pic }
+<div class="intro-section">
+  <img src="/assets/img/me.jpg" alt="Jonathan Kwan" class="profile-pic-left" />
 
-I’m a full-stack software engineer with a background in pediatric dentistry. They may seem like very different fields, but both are centered around solving problems and helping people.
+  <div class="intro-text">
+    <p>I’m a full-stack software engineer with a background in pediatric dentistry. They may seem like very different fields, but both are centered around solving problems and helping people.</p>
 
-I graduated from Hack Reactor’s immersive software engineering program, where I built multiple full-stack applications using **Python, FastAPI, JavaScript, React, and PostgreSQL**.
+    <p>I graduated from Hack Reactor’s immersive software engineering program, where I built multiple full-stack applications using <strong>Python, FastAPI, JavaScript, React, and PostgreSQL</strong>.</p>
 
-I thrive in collaborative environments, stay calm under pressure, and lead with empathy.
-Currently, I’m focused on building scalable applications while exploring how **AI can enhance user experience and automate tasks**.
+    <p>I thrive in collaborative environments, stay calm under pressure, and lead with empathy. Currently, I’m focused on building scalable applications while exploring how AI can enhance user experience and automate tasks.</p>
+
+  </div>
+</div>
 
 ---
 
@@ -20,13 +24,11 @@ Currently, I’m focused on building scalable applications while exploring how *
 
 Here’s a quick snapshot of the tools and technologies I work with:
 
-| **Languages** | **Frameworks & Libraries** | **Databases** | **Tools & Platforms** | **Practices**           |
-| ------------- | -------------------------- | ------------- | --------------------- | ----------------------- |
-| JavaScript    | React                      | PostgreSQL    | Docker                | Agile development       |
-| Python        | FastAPI                    |               | Render                | Code reviews            |
-| SQL           | SQLAlchemy                 |               | Git / GitHub          | Test-driven development |
-| HTML          | Tailwind CSS               |               | VSCode                |                         |
-| CSS           |                            |               |                       |                         |
+- **Languages:** JavaScript, Python, SQL, HTML, CSS
+- **Frameworks & Libraries:** React, FastAPI, SQLAlchemy, Tailwind CSS
+- **Databases:** PostgreSQL
+- **Tools & Platforms:** Docker, Render, Git / GitHub, VSCode
+- **Practices:** Agile development, code reviews, test-driven development
 
 ---
 
