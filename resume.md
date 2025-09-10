@@ -1,11 +1,7 @@
 ---
 layout: default
-title: Resume
+title: "📄 Resume"
 ---
-
-# 📄 Resume
-
-Here you can view or download my resume:
 
 <div class="resume-buttons">
   <a href="/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">View My Resume</a>

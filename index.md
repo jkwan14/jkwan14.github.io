@@ -10,7 +10,7 @@ I enjoy building apps that solve real problems and create meaningful user experi
 
 ---
 
-## 🛠 Skills at a Glance
+## Skills at a Glance
 
 - **Languages:** JavaScript, Python, SQL, HTML, CSS
 - **Frameworks & Libraries:** React, FastAPI, SQLAlchemy, Tailwind CSS
@@ -19,7 +19,7 @@ I enjoy building apps that solve real problems and create meaningful user experi
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 A few things I’ve built recently:
 
@@ -31,15 +31,15 @@ A few things I’ve built recently:
 
 ---
 
-## 📄 Resume
+## Resume
 
-<p style="text-align: center;">
+<div class="resume-buttons">
   <a href="/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">View My Resume</a>
-</p>
+</div>
 ---
 
-## 📬 Contact Me
+## Contact Me
 
-- 📧 [jkwan14@gmail.com](mailto:jkwan14@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/jonathan-joseph-kwan/)
-- 💻 [GitHub](https://github.com/jkwan14)
+- [jkwan14@gmail.com](mailto:jkwan14@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/jonathan-joseph-kwan/)
+- [GitHub](https://github.com/jkwan14)
