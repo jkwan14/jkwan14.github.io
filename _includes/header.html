@@ -1,0 +1,7 @@
+<nav style="text-align: center; margin: 20px 0">
+  {% for item in site.nav %}
+  <a href="{{ item.url | relative_url }}" style="margin: 0 10px">
+    {{ item.title }}
+  </a>
+  {% unless forloop.last %}|{% endunless %} {% endfor %}
+</nav>

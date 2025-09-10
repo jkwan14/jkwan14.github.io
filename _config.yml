@@ -1,0 +1,29 @@
+title: "Jonathan Kwan"
+email: jkwan14@gmail.com
+description: >-
+  Full-Stack Developer skilled in JavaScript, Python, React, FastAPI, and PostgreSQL
+
+# Important for GitHub Pages
+baseurl: "" # leave blank since your repo is jkwan14.github.io
+url: "https://jkwan14.github.io"
+
+# Social
+github_username: jkwan14
+linkedin_username: jonathan-joseph-kwan
+
+# Build settings
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+  - kramdown-parser-gfm
+
+# Navigation menu
+nav:
+  - title: "About"
+    url: /
+  - title: "Projects"
+    url: /projects
+  - title: "Resume"
+    url: /resume
+  - title: "Contact"
+    url: /contact

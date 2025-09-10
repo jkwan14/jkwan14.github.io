@@ -1,0 +1,227 @@
+/* === Project Grid Layout === */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-items: center; /* center cards if smaller than grid column */
+}
+
+/* === Project Card Styling === */
+.project-card {
+  background: #fff;
+  border: 1px solid #eaecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: all 0.2s ease;
+  max-width: 450px; /* cap card width for readability */
+  width: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  margin-top: 0;
+  color: #159957;
+}
+
+.project-card p {
+  margin: 0.5rem 0;
+}
+
+.project-card img {
+  display: block;
+  margin: 0 auto 1rem;
+  max-width: 100%;
+  border-radius: 6px;
+  min-height: 180px;
+  object-fit: cover;
+  background: #f6f8fa;
+}
+
+/* === Global Button Styling === */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem 0;
+  color: #fff;
+  background-color: #159957;
+  border: none;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  background-color: #125f5f;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* === Button Containers (Projects + Resume) === */
+.project-buttons,
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem auto 0;
+}
+
+.resume-buttons {
+  max-width: 500px; /* keeps resume buttons from stretching too wide */
+  width: 100%;
+}
+
+/* === Normalization Fix (keeps buttons aligned) === */
+.project-buttons .btn,
+.resume-buttons .btn {
+  height: 48px;
+  min-width: 200px;
+  padding: 0 1rem;
+  margin: 0;
+  line-height: 1;
+  font-size: 1rem;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+/* === Header === */
+.page-header {
+  color: #fff;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(180deg, #155799, #159957);
+  padding: 2rem 1rem;
+}
+
+.page-header h1,
+.page-header h2,
+.page-header p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Footer Social Links === */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+}
+
+/* Base icon colors */
+.social-links a[href^="mailto:"] {
+  color: #d93025; /* Gmail red */
+}
+.social-links a[href*="github.com"] {
+  color: #000; /* GitHub black */
+}
+.social-links a[href*="linkedin.com"] {
+  color: #0a66c2; /* LinkedIn blue */
+}
+
+/* Hover colors + backgrounds */
+.social-links a[href^="mailto:"]:hover {
+  color: #b2221c;
+  background-color: rgba(217, 48, 37, 0.1);
+}
+.social-links a[href*="github.com"]:hover {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.social-links a[href*="linkedin.com"]:hover {
+  color: #004182;
+  background-color: rgba(10, 102, 194, 0.1);
+}
+
+/* Zoom effect */
+.social-links a:hover {
+  transform: scale(1.2);
+}
+
+/* === Footer === */
+.site-footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: #606c71;
+  font-size: 0.9rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* === Responsive Adjustments === */
+
+/* Tablet breakpoint (2 cards per row) */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .site-footer {
+    padding: 1.5rem 0;
+  }
+}
+
+/* Mobile breakpoint (single column) */
+@media (max-width: 480px) {
+  .btn {
+    min-width: 140px;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-card h2 {
+    font-size: 1.25rem;
+  }
+
+  .project-card p {
+    font-size: 0.95rem;
+  }
+
+  .project-card ul {
+    font-size: 0.9rem;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
+  .project-card ul li {
+    margin: 0.25rem 0;
+  }
+
+  .site-footer {
+    font-size: 0.8rem;
+    padding: 1rem 0;
+  }
+}
