@@ -5,7 +5,7 @@ title: "📄 Resume"
 
 <div class="resume-buttons">
   <a href="/assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">View My Resume</a>
-  <a href="/assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer" download="Jonathan-Kwan-Resume">Download My Resume</a>
+  <a href="/assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer" download="Jonathan_Kwan_Resume.pdf">Download My Resume</a>
 </div>
 
 ---
