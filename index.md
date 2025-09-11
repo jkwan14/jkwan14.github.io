@@ -58,7 +58,7 @@ A few things I’ve built recently:
 
 </div>
 
-👉 Explore more on the [Projects page]({{ '/projects.html' | relative_url }}).
+👉 Explore more on the [Projects page]({{ '/projects' | relative_url }}).
 
 ---
 
