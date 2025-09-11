@@ -65,7 +65,7 @@ A selection of apps I’ve built:
 
 ---
 
-## 🧑‍💻 Practice Projects
+## Practice Projects
 
 These smaller apps helped me strengthen core full-stack skills:
 
