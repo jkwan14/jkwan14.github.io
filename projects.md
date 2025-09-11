@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "🚀 Projects"
+title: Projects
 ---
 
 A selection of apps I’ve built:

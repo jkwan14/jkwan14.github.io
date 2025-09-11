@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "📬 Contact"
+title: Contact
 ---
 
 Let’s connect. Here’s how to reach me:
