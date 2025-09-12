@@ -30,6 +30,10 @@ Here’s a quick snapshot of the tools and technologies I work with:
 - **Tools & Platforms:** Docker, Render, Git / GitHub, VSCode
 - **Practices:** Agile development, code reviews, test-driven development
 
+<div class="resume-buttons">
+  <a href="/assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">View My Resume</a>
+</div>
+
 ---
 
 ## Featured Projects
@@ -59,14 +63,6 @@ A few things I’ve built recently:
 </div>
 
 👉 Explore more on the [Projects page]({{ '/projects' | relative_url }}).
-
----
-
-## Resume
-
-<div class="resume-buttons">
-  <a href="/assets/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">View My Resume</a>
-</div>
 
 ---
 
