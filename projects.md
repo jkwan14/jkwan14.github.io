@@ -14,7 +14,7 @@ A selection of apps I’ve built:
     <img src="{{ '/assets/img/wastenot.png' | relative_url }}" alt="WasteNot screenshot" width="100%">
   </a>
   <h2>WasteNot</h2>
-  <p>A full-stack web app that helps reduce food waste by tracking ingredients and suggesting recipes</p>
+  <p>Full-stack web app that helps reduce food waste by tracking ingredients and expiration dates, then suggesting recipes with data from the Spoonacular API. Built with React, FastAPI, and PostgreSQL, deployed on Render</p>
   <p><strong>Stack:</strong> React • FastAPI • PostgreSQL</p>
   <ul>
     <li>Designed and implemented a PostgreSQL database schema to store user ingredients and expiration dates</li>
@@ -32,7 +32,7 @@ A selection of apps I’ve built:
     <img src="{{ '/assets/img/expense-tracker.png' | relative_url }}" alt="Expense Tracker Lite screenshot" width="100%">
   </a>
   <h2>Expense Tracker Lite</h2>
-  <p>A personal finance app with AI-powered transaction categorization</p>
+  <p>Personal finance app that automatically categorizes expenses using the OpenAI API. Users can log transactions, view spending categories, and track budgets. Built with React, FastAPI, and PostgreSQL</p>
   <p><strong>Stack:</strong> React • FastAPI • PostgreSQL</p>
   <ul>
     <li>Implemented auto-categorization of expenses using the OpenAI API</li>
@@ -49,7 +49,7 @@ A selection of apps I’ve built:
     <img src="{{ '/assets/img/pokemon-explorer.png' | relative_url }}" alt="Pokémon Explorer screenshot" width="100%">
   </a>
   <h2>Pokémon Explorer</h2>
-  <p>A React learning exercise exploring dynamic routing and API integration</p>
+  <p>React learning project that showcases dynamic routing and data fetching from the PokéAPI. Features multi-page navigation and interactive displays for exploring Pokémon data</p>
   <p><strong>Stack:</strong> React • React Router • PokeAPI</p>
   <ul>
     <li>Implemented multi-page navigation using React Router</li>

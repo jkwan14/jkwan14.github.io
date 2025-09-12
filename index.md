@@ -45,19 +45,19 @@ A few things I’ve built recently:
   <div class="project-card">
     <img src="/assets/img/wastenot.png" alt="WasteNot screenshot">
     <h2><a href="https://www.wastenotkitchen.com/" target="_blank" rel="noopener noreferrer">WasteNot</a></h2>
-    <p>Full-stack app to track ingredients and suggest recipes.</p>
+    <p>Full-stack web app that helps reduce food waste by tracking ingredients and expiration dates, then suggesting recipes with data from the Spoonacular API. Built with React, FastAPI, and PostgreSQL, deployed on Render.</p>
   </div>
 
   <div class="project-card">
     <img src="/assets/img/expense-tracker.png" alt="Expense Tracker Lite screenshot">
     <h2><a href="https://github.com/jkwan14/expense-tracker-lite" target="_blank" rel="noopener noreferrer">Expense Tracker Lite</a></h2>
-    <p>Personal finance tool with AI-powered auto-categorization.</p>
+    <p>Personal finance app that automatically categorizes expenses using the OpenAI API. Users can log transactions, view spending categories, and track budgets. Built with React, FastAPI, and PostgreSQL.</p>
   </div>
 
   <div class="project-card">
     <img src="/assets/img/pokemon-explorer.png" alt="Pokémon Explorer screenshot">
     <h2><a href="https://github.com/jkwan14/pokemon-explorer" target="_blank" rel="noopener noreferrer">Pokémon Explorer</a></h2>
-    <p>React exercise showcasing dynamic routing and API integration.</p>
+    <p>React learning project that showcases dynamic routing and data fetching from the PokéAPI. Features multi-page navigation and interactive displays for exploring Pokémon data.</p>
   </div>
 
 </div>
