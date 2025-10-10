@@ -14,7 +14,7 @@ A selection of apps I’ve built:
     <img src="{{ '/assets/img/wastenot.png' | relative_url }}" alt="WasteNot screenshot" width="100%">
   </a>
   <h2>WasteNot</h2>
-  <p>Full-stack web app that helps reduce food waste by tracking ingredients and expiration dates, then suggesting recipes with data from the Spoonacular API. Built with React, FastAPI, and PostgreSQL, deployed on Render</p>
+  <p>Full-stack web app that helps reduce food waste by tracking ingredients and expiration dates, then suggesting recipes with data from the Spoonacular API. Built with React, FastAPI, and PostgreSQL, deployed on Render.</p>
   <p><strong>Stack:</strong> React • FastAPI • PostgreSQL</p>
   <ul>
     <li>Designed and implemented a PostgreSQL database schema to store user ingredients and expiration dates</li>
@@ -32,7 +32,7 @@ A selection of apps I’ve built:
     <img src="{{ '/assets/img/expense-tracker.png' | relative_url }}" alt="Expense Tracker Lite screenshot" width="100%">
   </a>
   <h2>Expense Tracker Lite</h2>
-  <p>Personal finance app that automatically categorizes expenses using the OpenAI API. Users can log transactions, view spending categories, and track budgets. Built with React, FastAPI, and PostgreSQL</p>
+  <p>Personal finance app that automatically categorizes expenses using the OpenAI API. Users can log transactions, view spending categories, and track budgets. Built with React, FastAPI, and PostgreSQL.</p>
   <p><strong>Stack:</strong> React • FastAPI • PostgreSQL</p>
   <ul>
     <li>Implemented auto-categorization of expenses using the OpenAI API</li>
@@ -45,11 +45,28 @@ A selection of apps I’ve built:
 </div>
 
 <div class="project-card">
+  <a href="{{ '/assets/img/joke-machine.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/img/joke-machine.png' | relative_url }}" alt="Joke Machine screenshot" width="100%">
+  </a>
+  <h2>Joke Machine</h2>
+  <p>Interactive web app that delivers category-based jokes using the JokeAPI. Built with React and Axios to fetch and display random jokes dynamically, with user-selected categories and responsive styling.</p>
+  <p><strong>Stack:</strong> React • Axios • Vite • CSS</p>
+  <ul>
+    <li>Integrated JokeAPI with Axios to fetch single and two-part jokes dynamically</li>
+    <li>Implemented category selection with React radio buttons and state management via hooks</li>
+    <li>Created a responsive UI with CSS and flexbox for smooth layout and user experience</li>
+  </ul>
+  <div class="project-buttons">
+    <a href="https://github.com/jkwan14/joke-machine-app" target="_blank" rel="noopener noreferrer" class="btn">View Code</a>
+  </div>
+</div>
+
+<div class="project-card">
   <a href="{{ '/assets/img/pokemon-explorer.png' | relative_url }}" target="_blank" rel="noopener noreferrer">
     <img src="{{ '/assets/img/pokemon-explorer.png' | relative_url }}" alt="Pokémon Explorer screenshot" width="100%">
   </a>
   <h2>Pokémon Explorer</h2>
-  <p>React learning project that showcases dynamic routing and data fetching from the PokéAPI. Features multi-page navigation and interactive displays for exploring Pokémon data</p>
+  <p>React learning project that showcases dynamic routing and data fetching from the PokéAPI. Features multi-page navigation and interactive displays for exploring Pokémon data.</p>
   <p><strong>Stack:</strong> React • React Router • PokeAPI</p>
   <ul>
     <li>Implemented multi-page navigation using React Router</li>

@@ -55,9 +55,9 @@ A few things I’ve built recently:
   </div>
 
   <div class="project-card">
-    <img src="/assets/img/pokemon-explorer.png" alt="Pokémon Explorer screenshot">
-    <h2><a href="https://github.com/jkwan14/pokemon-explorer" target="_blank" rel="noopener noreferrer">Pokémon Explorer</a></h2>
-    <p>React learning project that showcases dynamic routing and data fetching from the PokéAPI. Features multi-page navigation and interactive displays for exploring Pokémon data.</p>
+    <img src="/assets/img/joke-machine.png" alt="Joke Machine screenshot">
+    <h2><a href="https://github.com/jkwan14/joke-machine-app" target="_blank" rel="noopener noreferrer">Joke Machine</a></h2>
+    <p>Interactive web app that delivers category-based jokes using the JokeAPI. Built with React and Axios to fetch and display random jokes dynamically, with user-selected categories and responsive styling.</p>
   </div>
 
 </div>
